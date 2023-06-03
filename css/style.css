@@ -1,0 +1,605 @@
+h1, h2, h3, h5{
+	color: #998c91;
+	text-shadow: 1px 1px #000;
+}
+
+.hd-text {
+	font-weight: 600;
+	text-shadow: 1px 1px #fff;
+}
+
+.active {
+	color: red!important;
+	border-bottom: 1px solid black;
+    
+}
+
+.covid-link {
+	text-decoration: none;
+	color: #000;
+}
+
+.covid-link:hover {
+	text-decoration: none;
+	color: #000!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #998c91;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #998c91!important;
+    background-color: #fff;
+    border: 1px solid #998c91;
+    transition: .8s;
+}
+
+/*NavBar*/
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red!important;
+/*	border-bottom: 1px solid black;*/
+}
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: .25rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    display: block;
+	background-color: transparent!important;
+	margin-left: 5px;
+	color: red;
+    
+}
+
+/*jumbotron*/
+.jumbotron-home {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--k4pO6DIJ--/f_auto/v1574352996/Nova%20Salon/header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	
+}
+
+.jumbotron-hair {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--xRE8vWXi--/f_auto/v1574352996/Nova%20Salon/hair-header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.jumbotron-lash {
+	background-image: url(../img/lash\ header1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	/* background-attachment: fixed; */
+	background-position: 80% 50%;
+}
+
+.jumbotron-micro {
+	background-image: url(../img/microblading/microbladingheader.jpg);
+	 /* background-size: cover;  */
+	background-repeat: no-repeat;
+	height: 500px;
+	 background-position: 20% 20%; 
+}
+
+
+
+.jumbotron-nails {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--_E58x18n--/f_auto/v1574352991/Nova%20Salon/Nails_Header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.jumbotron-waxing {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--7pypmY44--/f_auto/v1574352992/Nova%20Salon/waxing_header_2.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.jumbotron-skin {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--_FIAqa0Y--/f_auto/v1574352995/Nova%20Salon/facials_header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.jumbotron-mass {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--dHxbrI3n--/f_auto/v1574352996/Nova%20Salon/massage_header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+/*Image Cover*/
+
+.cover {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,.75);
+}
+
+.cover:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-text {
+	font-weight: 800;
+	text-shadow: 2px 2px #000;
+	color: #998c91;
+}
+
+
+.callout {
+	display:table;
+	width:100%;
+	height:400px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--eGbQ4c3S--/f_auto/v1574352993/Nova%20Salon/beautiful-daylight-dress-459947.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.callout2 {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--eGbQ4c3S--/f_auto/v1574352993/Nova%20Salon/beautiful-daylight-dress-459947.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.callout-hair {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--BlDTsyo4--/f_auto/v1574352995/Nova%20Salon/Hair_Parallax.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.callout-lash {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(../img/lash\ parallax\ 2.jpg) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+.callout-micro{
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(../img/microblading/microbladingheader.jpg) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+
+}
+
+
+
+.callout-nails {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s---gqnw8ou--/f_auto/v1574352991/Nova%20Salon/Nails_Parallax.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.callout-waxing {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--2K1V0b4c--/f_auto/v1574352993/Nova%20Salon/Waxing_Parallax.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.callout-skin {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--aXI0lKYi--/f_auto/v1574352995/Nova%20Salon/facials_parallax.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.callout-mass {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--fU0PJLsa--/f_auto/v1574352991/Nova%20Salon/massage_parallax.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+
+
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+     .btn-footer {
+                 color: grey;
+              
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 13px;
+                padding: 7px 30px;
+                line-height: 47px;
+     }
+     .btn-footer:hover {
+                
+                text-decoration: none;
+               
+     }
+    .form-footer input[type="text"] {
+        border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+ .form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    /* color: #fff !important; */
+    
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+    }
+
+.bg-grey {
+        background: #292929;
+     }
+     
+     footer {
+            color: #998c91;
+     }
+     
+/*  BRIDAL SECTION  */
+
+.jumbotron-bridal img {
+    height: 100%;
+}
+
+.jumbotron-bridal {
+    padding: 0;
+}
+
+.jumbotron-bridal h1 {
+    z-index: 20;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.top-margin {
+    margin-top: 1.65rem;
+}
+
+.bottom-margin {
+    margin-bottom: 3rem;
+}
+
+
+.callout-bridal {
+	display:table;
+	width:100%;
+	height:200px;
+	color:#fff;
+	background:url(https://res.cloudinary.com/ked-technology/image/upload/s--6oBI1gpf--/f_auto/v1574352994/Nova%20Salon/bridal-4.webp) no-repeat center center scroll;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed
+}
+
+.team-member {
+	width: 70%;
+}
+
+
+.hide {
+	display: none;
+}
+
+.hide-sm {
+	display: block;
+}
+
+@media only screen and (max-width: 600px) {
+/*
+  body {
+    background-color: lightblue;
+  }
+*/
+	.hide {
+	display: block;
+}
+	.hide-sm {
+	display: none;
+}
+	
+	.display-4 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+	
+	.heading-text {
+	font-weight: 800;
+	text-shadow: 1px 1px #000;
+	color: #998c91;
+		margin-top: 40px
+}
+	.jumbotron-home {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--k4pO6DIJ--/f_auto/v1574352996/Nova%20Salon/header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	
+}
+
+.jumbotron-lashes {
+	background-image:  url(../img/lash\ header1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	
+}
+
+.jumbotron-micro-bld {
+	background-image: url(../img/microblading/microbladingheader.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	
+}
+
+.jumbotron-hair {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--xRE8vWXi--/f_auto/v1574352996/Nova%20Salon/hair-header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.jumbotron-nails {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--_E58x18n--/f_auto/v1574352991/Nova%20Salon/Nails_Header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.jumbotron-waxing {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--7pypmY44--/f_auto/v1574352992/Nova%20Salon/waxing_header_2.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.jumbotron-skin {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--_FIAqa0Y--/f_auto/v1574352995/Nova%20Salon/facials_header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.jumbotron-mass {
+	background-image: url(https://res.cloudinary.com/ked-technology/image/upload/s--dHxbrI3n--/f_auto/v1574352996/Nova%20Salon/massage_header.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+	
+	.float {
+  		margin-left: 0%;
+  		
+}
+	.float1 {
+  		margin-left: 20%!important;
+  		
+}
+    #mod-footer{
+        float: left!important;
+    }
+}
+
+.h-captcha {
+    text-align: center!important;
+}
+
+.float {
+	margin-left: 40%;
+}
+.sm-icon {
+	padding-right: 10px
+}
+
+.fa-facebook-square {
+	color: #4267B2;
+}
+
+.fa-instagram {
+	background: -webkit-linear-gradient(#7430A7, #EA4154, #FFDA81);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-snapchat-square {
+	color: #FFFC01;
+}
+
+.fa-tiktok {
+	color: #F62B52;
+}
+
+.blink:hover {
+	color:#000!important;
+}
+
+.blink {
+	color:#000
+}
